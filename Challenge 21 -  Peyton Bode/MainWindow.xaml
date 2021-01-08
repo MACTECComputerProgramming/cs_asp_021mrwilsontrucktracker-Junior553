@@ -7,12 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="331" Margin="0,89,0,0" VerticalAlignment="Top" Width="246">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="246">
             <Label Content="Driver Info" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="103" FontSize="18" Margin="0.2,0.2,0,0" FontWeight="Bold" FontStyle="Italic"/>
         </Border>
-        <Label Content="Driver Name" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="91" FontSize="14"/>
-        <Label Content="Social Security" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Width="102" FontSize="14"/>
-        <Label Content="Phone" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" Width="52" FontSize="14"/>
-        <CheckBox Content="Refrigerated (0.12 per Mile" HorizontalAlignment="Left" Height="24" Margin="10,329,0,0" VerticalAlignment="Top" Width="187" FontSize="14"/>
+        <Label Content="Driver Name" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="91" FontSize="14"/>
+        <Label Content="Social Security" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="102" FontSize="14"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="52" FontSize="14"/>
+        <CheckBox x:Name="checkBoxAnswer" Content="Refrigerated (0.12 per Mile)" HorizontalAlignment="Left" Height="24" Margin="10,300,0,0" VerticalAlignment="Top" Width="187" FontSize="14"/>
+        <TextBox x:Name="answerDriver" HorizontalAlignment="Left" Height="29" Margin="10,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="answerSecurity" HorizontalAlignment="Left" Height="28" Margin="10,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="answerPhone" HorizontalAlignment="Left" Height="32" Margin="10,244,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="187"/>
+        <Label Content="Start Miles" HorizontalAlignment="Left" Height="26" Margin="10,353,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="End Miles" HorizontalAlignment="Left" Height="27" Margin="10,393,0,0" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="answerStart" HorizontalAlignment="Left" Height="21" Margin="84,358,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="answerEnd" HorizontalAlignment="Left" Height="17" Margin="84,393,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="420" Margin="251,0,0,0" VerticalAlignment="Top" Width="222"/>
+        <Label Content="Dates Driven" HorizontalAlignment="Left" Height="30" Margin="251,0,0,0" VerticalAlignment="Top" Width="122" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+        <Calendar HorizontalAlignment="Left" Margin="268,54,0,0" VerticalAlignment="Top" Height="165" Width="178"/>
+        <Calendar HorizontalAlignment="Left" Margin="268,244,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date Left" HorizontalAlignment="Left" Height="29" Margin="315,25,0,0" VerticalAlignment="Top" Width="83" FontSize="15"/>
+        <Label Content="Date Return" HorizontalAlignment="Left" Height="29" Margin="303,219,0,0" VerticalAlignment="Top" Width="95" FontSize="15"/>
+        <Button x:Name="answerTicket" Content="Print Driver Ticket" HorizontalAlignment="Left" Height="29" Margin="494,25,0,0" VerticalAlignment="Top" Width="281" FontSize="15" Click="answerTicket_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="335" Margin="494,75,0,0" VerticalAlignment="Top" Width="290"/>
     </Grid>
 </Window>

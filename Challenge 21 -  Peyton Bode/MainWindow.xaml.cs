@@ -24,5 +24,24 @@ namespace Challenge_21____Peyton_Bode
         {
             InitializeComponent();
         }
+
+        private void answerTicket_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        // Instantiate Variables
+
+        // Format Driver Info
+
+        // Get Total Days
+
+        // Get Days Off
+
+        // Get Total Miles
+
+        // Get Total Pay
+
+        // Driver Ticket
+
     }
 }
