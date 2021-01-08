@@ -27,7 +27,14 @@ namespace Challenge_21____Peyton_Bode
 
         private void answerTicket_Click(object sender, RoutedEventArgs e)
         {
+            string result = string.Format("Driver: {0}", answerDriver.Text);
+            labelResult.Content = result;
+            result = string.Format("Social Security: {0}", answerSecurity.Text);
+            labelResult2.Content = result;
+            result = string.Format("Phone: {0}", answerPhone.Text);
+            labelResult3.Content = result;
 
+            
         }
         // Instantiate Variables
 

@@ -28,6 +28,10 @@
         <Label Content="Date Left" HorizontalAlignment="Left" Height="29" Margin="315,25,0,0" VerticalAlignment="Top" Width="83" FontSize="15"/>
         <Label Content="Date Return" HorizontalAlignment="Left" Height="29" Margin="303,219,0,0" VerticalAlignment="Top" Width="95" FontSize="15"/>
         <Button x:Name="answerTicket" Content="Print Driver Ticket" HorizontalAlignment="Left" Height="29" Margin="494,25,0,0" VerticalAlignment="Top" Width="281" FontSize="15" Click="answerTicket_Click"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="335" Margin="494,75,0,0" VerticalAlignment="Top" Width="290"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="335" Margin="494,75,0,0" VerticalAlignment="Top" Width="290">
+            <Label x:Name="labelResult" Content="Name?" HorizontalAlignment="Left" Height="29" Margin="-0.8,-0.8,0,0" VerticalAlignment="Top" Width="280" FontSize="13"/>
+        </Border>
+        <Label x:Name="labelResult2" Content="Social Security?" HorizontalAlignment="Left" Height="26" Margin="494,111,0,0" VerticalAlignment="Top" Width="281" FontSize="13"/>
+        <Label x:Name="labelResult3" Content="Phone?" HorizontalAlignment="Left" Height="30" Margin="494,142,0,0" VerticalAlignment="Top" Width="281" FontSize="13"/>
     </Grid>
 </Window>
